@@ -1,68 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
-@keyframes h1 {
-  from {
-    background-color: dodgerblue;
-  }
-  to {
-    background-color: blueviolet;
-  }
+i{
+	cursor: pointer;
 }
-h1 {
-    background-color: dodgerblue;
-    animation-name: h1;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    font-family:'Courier New', Courier, monospace;
-  }
-  @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
-
-.link-cust {
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 30px;
-  color: aquamarine;
+.fa-plus{
+	border: 1px solid #398ae0;
+    border-radius: 40px;
+    font-size: 25px;
+    background-color: #007bff;
+    color: rgb(185, 85, 172);
+    padding: 8px 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
-.text-cust {
-  font-family: "Nanum Gothic", sans-serif;
-  font-size: 120px;
-  color: black;
+.fa-edit{
+    border: 1px solid #05afc9;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: #17a2b8;
+    color: rgb(8, 48, 53);
+    padding: 11px 10px;
 }
-h2 {
-  color: rgb(58, 53, 53);
-}
-#portada {
-  background-color: blue;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-body {
-  background-color: rgb(170, 198, 250);
-}
-.cont-cust1 {
-  background-color: burlywood;
-  border-radius: 15px;
-  border: solid 10px;
-}
-.cont-cust {
-  background-color: rgb(15, 136, 192);
-  border-radius: 10px;
-  font-weight: bold;
-}
-.form-cust {
-  background-color: rgb(212, 205, 173);
-  border-bottom: black;
-  border-style: solid;
-  border-width: thin;
-  font-weight: bolder;
-}
-footer {
-  color: white;
-}
-h3 {
-  text-align: center;
-  font-weight: bolder;
-  color: rgb(58, 53, 53);
+.fa-trash-alt{
+	border: 1px solid #74419e;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: #dc3583;
+    color: rgb(255, 255, 255);
+    padding: 11px 12px;
 }

@@ -85,7 +85,7 @@ if($id != "" && isset($_REQUEST["do"]) && $_REQUEST["do"] == "eliminar"){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/estilosABM.css">
+    <link rel="stylesheet" href="css/estilosAMB.css">
 </head>
 <body>
 <header>
@@ -152,13 +152,15 @@ if($id != "" && isset($_REQUEST["do"]) && $_REQUEST["do"] == "eliminar"){
                         <td><?php echo $cliente["dni"]; ?></td>
                         <td><?php echo $cliente["nombre"]; ?></td>
                         <td><?php echo $cliente["correo"]; ?></td>
-                        <td style="width: 110px;">
+                        <td style="width: 500px;">
+                        <a href="<?php echo "?id=$pos"; ?>"><i class="fas fa-edit"></i></a>
+                            <a href="<?php echo "?id=$pos&do=eliminar"; ?>"><i class="fas fa-trash-alt"></i></a>
                             
                         </td>
                     </tr>
                     <?php endforeach;?>
                 </table>
-
+                <a href="index.php"><i class="fas fa-plus"></i></a>
                 <div class="bg-dark">
                     <p class="text-light text-center">Gracias Por Registrarte</p>
                 </div>
